@@ -1,6 +1,4 @@
-setwd("C:/Users/Keith Quinita/Desktop/Keith/Coursera/JHU Data Science/3 Getting and Cleaning Data/Project")
-
-##start
+##This script creates a tidy data set involving smarphone recognition of human data set by averaging each variable for each subject and each activity.
 
 ##read and fix ./UCI HAR Dataset/activity_labels.txt
 activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt", header=FALSE, sep="", col.names=c("number","activity"))

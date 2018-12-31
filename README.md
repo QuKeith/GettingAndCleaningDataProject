@@ -1,6 +1,6 @@
 ## Human Activity Recognition Using Smartphones Dataset
 
-##Overview
+## Overview
 This repository contains "run_analysis.R", "summary.txt", "CodeBook.md", and this "README.md" file.
 
 The script "run_analysis.R" reads and makes use of the files below, particularly items 3-8. It merges these files to obtain one tidy data set that lists the activities done by the subjects and their corresponding measurements of features (mean and standard deviation). The script results to data frame that summarizes the obtained tidy data set by averaging the measurements for each activity and subject. This output is written to a file named "/summary.txt".

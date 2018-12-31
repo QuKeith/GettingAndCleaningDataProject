@@ -1,4 +1,5 @@
-##This script creates a tidy data set involving smarphone recognition of human data set by averaging each variable for each subject and each activity.
+##This script creates a tidy data set involving smarphone recognition of human data set
+    ##...by averaging each variable for each subject and each activity.
 
 ##read and fix ./UCI HAR Dataset/activity_labels.txt
 activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt", header=FALSE, sep="", col.names=c("number","activity"))

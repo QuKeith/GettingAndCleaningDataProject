@@ -66,7 +66,7 @@ Then, we apply the function to the column names of [data].
 
 12. Summarize the tidy data [data] by averaging each variable for each subject and each activity. We do this by using melt() and dcast() functions in reshape2 package. Note that the package must be installed for the whole script to work.
 
-13. The summary is the final output that we write into "./summary.txt".
+13. The summary is the final output that we write into "./summary.txt". Because of how this file is written, it is advised to use header=TRUE and sep="\t" as parameter when reading it in R.
 
 ### Study's Feature Selection
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerationXYZ and timeGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeBodyAccelerationXYZ and timeGravityAccelerationXYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
@@ -77,7 +77,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 Features are normalized and bounded within [-1,1].
 
-###Complete list of variables (Total:68)
+### Complete list of variables (Total: 68)
 
 1. activity - activity performed ("walking", "walking upstairs", "walking downstairs", "sitting", "standing", and "laying")
 2. subject - identifier of the subject performing the activity (range: 1-30)

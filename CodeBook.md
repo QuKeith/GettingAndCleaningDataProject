@@ -2,7 +2,7 @@
 This book describes the study observed, variables included, and transformations done in the tidy data in "/summary.txt"
 
 ### Study Observed
-The data was obtained from Human Activity Recognition Using Smartphones Dataset(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The data was obtained from Human Activity Recognition Using Smartphones Dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 Experiments have been done with a group of 30 volunteers with ages ranging from 18 to 48 years. Six activities were performed by eahc person, namely: walking, walking upstairs, walking downstairs, sitting, standing, and laying. Each person wore a Samsung Galaxy S II smartphone.
 
@@ -73,7 +73,7 @@ The features selected for this database come from the accelerometer and gyroscop
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (timeBodyAccelerationJerkXYZ and timeBodyGyroJerkXYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBodyAccelerationMagnitude, timeGravityAccelerationMagnitude, timeBodyAccelerationJerkMagnitude, timeBodyGyroMagnitude, timeBodyGyroJerkMagnitude). 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequencyBodyAccelerationXYZ, frequencyBodyAccJerkXYZ, frequencyBodyGyroXYZ, frequencyBodyAccJerkMagnitude, frequencyBodyGyroMagnitude, frequencyBodyGyroJerkMagnitude.
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequencyBodyAccelerationXYZ, frequencyBodyAccelerationJerkXYZ, frequencyBodyGyroXYZ, frequencyBodyAccelerationJerkMagnitude, frequencyBodyGyroMagnitude, frequencyBodyGyroJerkMagnitude.
 
 Features are normalized and bounded within [-1,1].
 
